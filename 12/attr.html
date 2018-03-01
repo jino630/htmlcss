@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta chraset="utf-8">
+        <style>
+            a[href] { background:yellow; }
+            a[target="_blank"] { padding-right:30px; background:url(newwindow.png) no-repeat center right; }
+            .flat { background:blue; color:white; }
+            [class ~="button"] { border:2px solid black; box-shadow:rgba(0,0,0,0.4) 5px 5px; }
+            a[title |="us"] { background:url(us.png) no-repeat left center; padding:5px 25px; }
+            a[title |="jap"] { background:url(jp.png) no-repeat left center; padding:5px 25px; }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a>메인 메뉴 : </a></li>
+            <li><a href="#"> 메뉴 1 </a></li>
+            <li><a href="#"> 메뉴 2 </a></li>
+            <li><a href="#"> 메뉴 3 </a></li>
+        </ul>
+        <hr>
+        <hr>
+        <h1> HTML 5 표준안 사이트 </h1>
+        <ul>
+            <li><a href="http://www.w3c.org/TR/html" target="_blank"> HTML </a></li>
+            <li><a href="https://www.w3.org/TR/selectors">CSS selector Level 3</a></li>
+            <li><a href="https://www.w3.org/TR/css3-mediaqueries">미디어쿼리</a></li>
+        </ul>
+        <hr><hr>
+        <ul>
+            <li><a class="button"> 메뉴 </a></li>
+            <li><a class="flat button">메뉴</a></li>
+        </ul>
+        <hr><hr>
+        <ul>
+            <li><a title="us">영어</a></li>
+            <li><a title="us-english">영어</a></li>
+            <li><a title="japanese">일본어</a></li>                
+        </ul>
+    </body>
+</html>
